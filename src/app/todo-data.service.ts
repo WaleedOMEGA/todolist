@@ -13,9 +13,9 @@ export class TodoDataService {
    addToDo(todo:ToDo):TodoDataService{
      if(!todo.id){
        todo.id=++this.lastId;
-       this.todos.push(todo);
-       return this;
      }
+     this.todos.push(todo);
+     return this;
    }
    deleteToDoById(id:number):TodoDataService{
      this.todos=this.todos.filter(todo => todo.id!==id);
