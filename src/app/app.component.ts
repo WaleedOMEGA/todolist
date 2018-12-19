@@ -4,7 +4,7 @@ import { ToDo } from './to-do';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.css'],
   providers:[TodoDataService]
 })
 export class AppComponent {
