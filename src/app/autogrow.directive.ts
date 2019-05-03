@@ -12,6 +12,7 @@ export class AutoGrow {
     }
     @HostListener("blur")
     blur(){
-        this.renderer.setElementClass(this.el.nativeElement,"focus",false)
+        this.renderer.setElementClass(this.el.nativeElement,"focus",false);
+        
     }
 }
